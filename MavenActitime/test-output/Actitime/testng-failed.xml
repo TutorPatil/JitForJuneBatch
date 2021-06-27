@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Actitime]">
+  <listeners>
+    <listener class-name="com.actitime.base.BaseClass"/>
+  </listeners>
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="com.actitime.tests.FileUpload">
+        <methods>
+          <include name="afterClass"/>
+          <include name="fileUploadEx1"/>
+          <include name="beforeCLass"/>
+          <include name="closeBrowser"/>
+          <include name="aftertest"/>
+          <include name="launchBrowser"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.actitime.tests.FileUpload -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Actitime] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Actitime" duration-ms="21113" started-at="2021-06-24T03:06:14Z" finished-at="2021-06-24T03:06:35Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="21113" started-at="2021-06-24T03:06:14Z" finished-at="2021-06-24T03:06:35Z">
+      <class name="com.actitime.tests.Login">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="beforetest" is-config="true" duration-ms="33" started-at="2021-06-24T08:36:16Z" finished-at="2021-06-24T08:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeCLass()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="beforeCLass" is-config="true" duration-ms="1" started-at="2021-06-24T08:36:16Z" finished-at="2021-06-24T08:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCLass -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="launchBrowser" is-config="true" duration-ms="15542" started-at="2021-06-24T08:36:16Z" finished-at="2021-06-24T08:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login_002()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="login_002" duration-ms="3918" started-at="2021-06-24T08:36:31Z" finished-at="2021-06-24T08:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_002 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-06-24T08:36:35Z" finished-at="2021-06-24T08:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.actitime.tests.Login@210366b4]" name="aftertest" is-config="true" duration-ms="0" started-at="2021-06-24T08:36:35Z" finished-at="2021-06-24T08:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.actitime.tests.Login -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Actitime -->
+</testng-results>

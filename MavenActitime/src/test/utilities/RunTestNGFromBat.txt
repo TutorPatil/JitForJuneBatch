@@ -1,0 +1,11 @@
+cd C:\Users\sudhapat\Desktop\tempauto\temp\May_Selenium_Morning\Selenium_May_Workspace\ActitimeAutomation
+
+java -cp "./lib/*;./bin/" org.testng.TestNG testng.xml
+
+
+## If you want to run the testng from CMD prompt Follow these steps
+
+# OPen CMD prompt
+# Navigate to the project where testng.xml is file is located
+# Run the below command
+#java -cp "./lib/*;./bin/" org.testng.TestNG testng.xml

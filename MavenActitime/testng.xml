@@ -1,0 +1,17 @@
+<suite name="Actitime" verbose="1" >
+ 
+   <listeners>
+    <listener class-name="com.actitime.base.BaseClass" />  
+  </listeners>
+  
+  <test name="Smoke"  >  
+  
+   <classes>
+      <class  name="com.actitime.tests.Login"/>     
+    </classes>   
+    
+ </test>
+ 
+ 
+ 
+</suite>

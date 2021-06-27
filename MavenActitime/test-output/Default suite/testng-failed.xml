@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.actitime.tests.Login">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeCLass"/>
+          <include name="fileUploadEx"/>
+          <include name="closeBrowser"/>
+          <include name="aftertest"/>
+          <include name="launchBrowser"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.actitime.tests.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
