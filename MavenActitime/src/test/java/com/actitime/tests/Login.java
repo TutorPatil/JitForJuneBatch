@@ -71,6 +71,17 @@ public class Login extends BaseClass{
 			
 	}
 	
+	@Test
+	public static void login_003() throws Exception
+	{
+		
+		boolean errorMsg =	CommonUtils.invalidLoginToActiTime("admin123", "afafaf");		
+		
+		Assert.assertTrue(errorMsg, "The error msg is not displayed!!");
+		
+			
+	}
+	
 	//@Test
 	public static void fileUploadUsingAUoITEx() throws InterruptedException, IOException, AWTException
 	{
