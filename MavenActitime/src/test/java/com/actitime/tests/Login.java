@@ -74,7 +74,7 @@ public class Login extends BaseClass{
 	@Test
 	public static void login_003() throws Exception
 	{
-		
+		// Added one comment
 		boolean errorMsg =	CommonUtils.invalidLoginToActiTime("admin123", "afafaf");		
 		
 		Assert.assertTrue(errorMsg, "The error msg is not displayed!!");
